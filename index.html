@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="maincontainer">
+    <nav class="navbar">
+      
+      <div class="">
+        <ul class="nav-display">
+          <li id="boldtxt">Snap</li>
+          <li class="lightcolor pad" >Features
+            <img class="arrow  pointer profile-menu" data-trigger="dropdown" src="images/icon-arrow-down.svg" alt="">
+            <ul class="submenu sub">
+              <li><img class="space" src="images/icon-todo.svg" alt="">Todo list</li>
+              <li><img class="space" src="images/icon-calendar.svg" alt="">calendar</li>
+              <li><img class="space" src="images/icon-reminders.svg" alt="">Reminders</li>
+              <li><img class="space" src="images/icon-planning.svg" alt="">Planning</li>
+            </ul>
+          </li>
+          <li class="lightcolor pad pointer " >Company
+            <img class="arrow profile-menu" data-trigger="dropdown" src="images/icon-arrow-down.svg" alt="">
+            <ul class="submenu">
+              <li>History</li>
+              <li>Our team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li class="lightcolor pad pointer">career</li>
+          <li class="lightcolor pad pointer">About</li>
+          <li class="pot lightcolor pad pointer"> Login</li>
+          <li class=" "><a rel="noopener"  href="#" class="pos reg lightcolor">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--body content-->
+    <div class="bodycontent">
+      <div class="textcontent">
+        <h1 class="makework">Make <br>
+        remote work</h1>
+        <p class="lightcolor">Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+      </div>
+      <br>
+      <button class="learn learnmore">Learn more</button><br>
+
+      <!--logos-->
+      <div class="logodiv">
+        <img class="logsize" src="images/client-databiz.svg" alt="">
+        <img class="logsize"  src="images/client-audiophile.svg" alt="">
+        <img class="logsize" src="images/client-meet.svg" alt="">
+        <img class="logsize" src="images/client-maker.svg" alt="">
+      </div>
+
+      <!--imagecontent-->
+      <div class="imagecontent">
+        <img class="hero" src="images/image-hero-desktop.png" alt="">
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+  
+
+  
+  
+  <footer  class="attribution">
+    Challenge by <a rel="noopener" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a rel="noopener" target="_blank" href="https://github.com/olaleksi">Olalekan</a>.
+  </footer>
+  <script src="jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="intro.js"></script>
+</body>
+</html>
